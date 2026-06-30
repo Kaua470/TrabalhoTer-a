@@ -1,0 +1,108 @@
+
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f5f5f5;
+}
+
+
+.container{
+    background:white;
+    width:300px;
+    padding:30px;
+    border-radius:10px;
+    text-align:center;
+    margin:40px auto;
+}
+
+
+.login{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+
+input,
+button{
+    width:100%;
+    padding:10px;
+    margin-top:10px;
+    box-sizing:border-box;
+}
+
+
+a{
+    display:block;
+    background:#ddd;
+    padding:10px;
+    margin-top:10px;
+    text-decoration:none;
+    color:black;
+    border-radius:5px;
+}
+
+a:hover{
+    background:#c7c7c7;
+}
+
+
+.topo{
+    background:#2c3e50;
+    padding:15px;
+    display:flex;
+    justify-content:center;
+    gap:20px;
+}
+
+.topo a{
+    display:inline-block;
+    background:none;
+    color:white;
+    margin:0;
+    padding:8px 15px;
+    font-weight:bold;
+    border-radius:5px;
+}
+
+.topo a:hover{
+    background:#34495e;
+}
+
+.feriado{
+    margin-top:20px;
+    font-size:14px;
+    color:#555;
+}
+
+.container-menu{
+    background:white;
+    width:400px;
+    padding:30px;
+    border-radius:10px;
+    text-align:center;
+    margin:40px auto;
+}
+
+.container-home{
+    background:white;
+    width:90%;
+    max-width:1000px;
+    padding:30px;
+    border-radius:10px;
+    text-align:center;
+    margin:40px auto;
+}
+
+.sucesso{
+    color: green;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.erro{
+    color: red;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
